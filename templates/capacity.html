@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Project Two</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+    <!-- Navigation Section -->
+  <div class="navigation">
+  
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="/">World Solar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Plots <span class="sr-only">(current)</span></a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="consumption">Solar Energy Consumption</a>
+                              <a class="dropdown-item" href="capacity">Installed Solar PV Capacity</a>
+                              
+                          </div>
+  
+                  </li>
+  
+                  <li class="nav-item">
+                      <a class="nav-link" href="comparisons.html">Comparisons</a>
+                  </li>
+                  
+  
+          
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  
+                  
+              </form>
+          </div>
+      </nav>
+  </div>    
+    
+
+
+
+
+
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-7 col-md-12">
+
+            <!-- Left box  -->
+            <div class="box">
+                <h3 class="title">Solar Capacity</h3>
+                <hr>
+                <!-- <img src="/data/solar_panels.jpg" class="vizualization rounded float-left" alt="Solar Panels"> -->
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+                accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
+                500 cities.</p>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+                source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+                any trends and correlations witnessed.</p>
+            </div>
+        </div>
+    <div class="col-lg-5 col-md-12">
+
+
+
+
+
+
+
+
+ <!-- Footer Section -->
+    <footer>
+        <div class="footer">Copyright &copy; Obianyimuo & Ozcelik, June 2020</div>
+    </footer>
+
+  <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
