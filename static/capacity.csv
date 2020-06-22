@@ -1,0 +1,1354 @@
+code,entity,solar_capacity_gwh,year
+DZA,Algeria,0.0,1996
+DZA,Algeria,0.0,1997
+DZA,Algeria,0.0,1998
+DZA,Algeria,0.0,1999
+DZA,Algeria,0.0,2000
+DZA,Algeria,0.0,2001
+DZA,Algeria,0.0,2002
+DZA,Algeria,0.0,2003
+DZA,Algeria,0.0,2004
+DZA,Algeria,0.0,2005
+DZA,Algeria,0.0,2006
+DZA,Algeria,0.0,2007
+DZA,Algeria,0.0,2008
+DZA,Algeria,0.0,2009
+DZA,Algeria,0.025,2010
+DZA,Algeria,0.025,2011
+DZA,Algeria,0.025,2012
+DZA,Algeria,0.025,2013
+DZA,Algeria,0.0261,2014
+DZA,Algeria,0.0741,2015
+DZA,Algeria,0.2441,2016
+DZA,Algeria,0.425,2017
+DZA,Algeria,0.435,2018
+AUS,Australia,0.016,1996
+AUS,Australia,0.019,1997
+AUS,Australia,0.023,1998
+AUS,Australia,0.025,1999
+AUS,Australia,0.029,2000
+AUS,Australia,0.034,2001
+AUS,Australia,0.039,2002
+AUS,Australia,0.046,2003
+AUS,Australia,0.052,2004
+AUS,Australia,0.061,2005
+AUS,Australia,0.07,2006
+AUS,Australia,0.082,2007
+AUS,Australia,0.105,2008
+AUS,Australia,0.188,2009
+AUS,Australia,0.571,2010
+AUS,Australia,1.397,2011
+AUS,Australia,2.435,2012
+AUS,Australia,3.258,2013
+AUS,Australia,4.007,2014
+AUS,Australia,4.36,2015
+AUS,Australia,4.721,2016
+AUS,Australia,5.9934,2017
+AUS,Australia,9.7687,2018
+AUT,Austria,0.0017,1996
+AUT,Austria,0.0022,1997
+AUT,Austria,0.0029,1998
+AUT,Austria,0.0037,1999
+AUT,Austria,0.005,2000
+AUT,Austria,0.007,2001
+AUT,Austria,0.009,2002
+AUT,Austria,0.023,2003
+AUT,Austria,0.027,2004
+AUT,Austria,0.021,2005
+AUT,Austria,0.0224,2006
+AUT,Austria,0.0242,2007
+AUT,Austria,0.0301,2008
+AUT,Austria,0.0489,2009
+AUT,Austria,0.0888,2010
+AUT,Austria,0.1741,2011
+AUT,Austria,0.3375,2012
+AUT,Austria,0.626,2013
+AUT,Austria,0.7852,2014
+AUT,Austria,0.9371,2015
+AUT,Austria,1.096,2016
+AUT,Austria,1.269,2017
+AUT,Austria,1.431,2018
+BEL,Belgium,0.0,1996
+BEL,Belgium,0.0,1997
+BEL,Belgium,0.0,1998
+BEL,Belgium,0.0,1999
+BEL,Belgium,0.0,2000
+BEL,Belgium,0.0,2001
+BEL,Belgium,0.001,2002
+BEL,Belgium,0.001,2003
+BEL,Belgium,0.001,2004
+BEL,Belgium,0.002,2005
+BEL,Belgium,0.002,2006
+BEL,Belgium,0.02,2007
+BEL,Belgium,0.062,2008
+BEL,Belgium,0.386,2009
+BEL,Belgium,1.0069,2010
+BEL,Belgium,1.9791,2011
+BEL,Belgium,2.6465,2012
+BEL,Belgium,2.9024,2013
+BEL,Belgium,3.0148,2014
+BEL,Belgium,3.131,2015
+BEL,Belgium,3.3254,2016
+BEL,Belgium,3.6096,2017
+BEL,Belgium,4.0256,2018
+BRA,Brazil,0.0,1996
+BRA,Brazil,0.0,1997
+BRA,Brazil,0.0,1998
+BRA,Brazil,0.0,1999
+BRA,Brazil,0.0,2000
+BRA,Brazil,0.0,2001
+BRA,Brazil,0.0,2002
+BRA,Brazil,0.0,2003
+BRA,Brazil,0.0,2004
+BRA,Brazil,0.0,2005
+BRA,Brazil,0.0,2006
+BRA,Brazil,0.0,2007
+BRA,Brazil,0.0,2008
+BRA,Brazil,0.0,2009
+BRA,Brazil,0.001,2010
+BRA,Brazil,0.001,2011
+BRA,Brazil,0.002,2012
+BRA,Brazil,0.005,2013
+BRA,Brazil,0.015,2014
+BRA,Brazil,0.0229,2015
+BRA,Brazil,0.08,2016
+BRA,Brazil,1.097,2017
+BRA,Brazil,2.296,2018
+BGR,Bulgaria,0.0,1996
+BGR,Bulgaria,0.0,1997
+BGR,Bulgaria,0.0,1998
+BGR,Bulgaria,0.0,1999
+BGR,Bulgaria,0.0,2000
+BGR,Bulgaria,0.0,2001
+BGR,Bulgaria,0.0,2002
+BGR,Bulgaria,0.0,2003
+BGR,Bulgaria,0.0,2004
+BGR,Bulgaria,0.0,2005
+BGR,Bulgaria,0.0,2006
+BGR,Bulgaria,0.0,2007
+BGR,Bulgaria,0.0,2008
+BGR,Bulgaria,0.002,2009
+BGR,Bulgaria,0.025,2010
+BGR,Bulgaria,0.154,2011
+BGR,Bulgaria,1.013,2012
+BGR,Bulgaria,1.02,2013
+BGR,Bulgaria,1.026,2014
+BGR,Bulgaria,1.029,2015
+BGR,Bulgaria,1.028,2016
+BGR,Bulgaria,1.0356,2017
+BGR,Bulgaria,1.0356,2018
+CAN,Canada,0.003,1996
+CAN,Canada,0.003,1997
+CAN,Canada,0.005,1998
+CAN,Canada,0.006,1999
+CAN,Canada,0.007,2000
+CAN,Canada,0.009,2001
+CAN,Canada,0.01,2002
+CAN,Canada,0.012,2003
+CAN,Canada,0.014,2004
+CAN,Canada,0.017,2005
+CAN,Canada,0.021,2006
+CAN,Canada,0.026,2007
+CAN,Canada,0.033,2008
+CAN,Canada,0.095,2009
+CAN,Canada,0.221,2010
+CAN,Canada,0.497,2011
+CAN,Canada,0.766,2012
+CAN,Canada,1.21,2013
+CAN,Canada,1.843,2014
+CAN,Canada,2.517,2015
+CAN,Canada,2.661,2016
+CAN,Canada,2.873,2017
+CAN,Canada,3.113,2018
+CHL,Chile,0.0,1996
+CHL,Chile,0.0,1997
+CHL,Chile,0.0,1998
+CHL,Chile,0.0,1999
+CHL,Chile,0.0,2000
+CHL,Chile,0.0,2001
+CHL,Chile,0.0,2002
+CHL,Chile,0.0,2003
+CHL,Chile,0.0,2004
+CHL,Chile,0.0,2005
+CHL,Chile,0.0,2006
+CHL,Chile,0.0,2007
+CHL,Chile,0.0,2008
+CHL,Chile,0.0,2009
+CHL,Chile,0.0,2010
+CHL,Chile,0.0,2011
+CHL,Chile,0.002,2012
+CHL,Chile,0.015,2013
+CHL,Chile,0.221,2014
+CHL,Chile,0.576,2015
+CHL,Chile,1.125,2016
+CHL,Chile,1.809,2017
+CHL,Chile,2.137,2018
+CHN,China,0.001,1996
+CHN,China,0.0025,1997
+CHN,China,0.005,1998
+CHN,China,0.01,1999
+CHN,China,0.0335,2000
+CHN,China,0.038,2001
+CHN,China,0.0565,2002
+CHN,China,0.0666,2003
+CHN,China,0.0766,2004
+CHN,China,0.1412,2005
+CHN,China,0.1602,2006
+CHN,China,0.199,2007
+CHN,China,0.253,2008
+CHN,China,0.4148,2009
+CHN,China,1.0245,2010
+CHN,China,3.113,2011
+CHN,China,6.7255,2012
+CHN,China,17.7617,2013
+CHN,China,28.4017,2014
+CHN,China,43.5517,2015
+CHN,China,77.8017,2016
+CHN,China,130.8162,2017
+CHN,China,175.0317,2018
+CZE,Czech Republic,0.0,1996
+CZE,Czech Republic,0.0,1997
+CZE,Czech Republic,0.0,1998
+CZE,Czech Republic,0.0,1999
+CZE,Czech Republic,0.0001,2000
+CZE,Czech Republic,0.0001,2001
+CZE,Czech Republic,0.0002,2002
+CZE,Czech Republic,0.0003,2003
+CZE,Czech Republic,0.0004,2004
+CZE,Czech Republic,0.001,2005
+CZE,Czech Republic,0.001,2006
+CZE,Czech Republic,0.004,2007
+CZE,Czech Republic,0.04,2008
+CZE,Czech Republic,0.465,2009
+CZE,Czech Republic,1.727,2010
+CZE,Czech Republic,1.913,2011
+CZE,Czech Republic,2.022,2012
+CZE,Czech Republic,2.064,2013
+CZE,Czech Republic,2.068,2014
+CZE,Czech Republic,2.075,2015
+CZE,Czech Republic,2.068,2016
+CZE,Czech Republic,2.0695,2017
+CZE,Czech Republic,2.0775,2018
+DNK,Denmark,0.0,1996
+DNK,Denmark,0.0,1997
+DNK,Denmark,0.0,1998
+DNK,Denmark,0.0,1999
+DNK,Denmark,0.001,2000
+DNK,Denmark,0.001,2001
+DNK,Denmark,0.002,2002
+DNK,Denmark,0.002,2003
+DNK,Denmark,0.002,2004
+DNK,Denmark,0.003,2005
+DNK,Denmark,0.003,2006
+DNK,Denmark,0.003,2007
+DNK,Denmark,0.003,2008
+DNK,Denmark,0.005,2009
+DNK,Denmark,0.007,2010
+DNK,Denmark,0.017,2011
+DNK,Denmark,0.402,2012
+DNK,Denmark,0.571,2013
+DNK,Denmark,0.607,2014
+DNK,Denmark,0.7821,2015
+DNK,Denmark,0.851,2016
+DNK,Denmark,0.9064,2017
+DNK,Denmark,0.998,2018
+EGY,Egypt,0.0001,2000
+EGY,Egypt,0.0005,2001
+EGY,Egypt,0.0006,2002
+EGY,Egypt,0.0006,2003
+EGY,Egypt,0.0006,2004
+EGY,Egypt,0.0006,2005
+EGY,Egypt,0.0006,2006
+EGY,Egypt,0.0007,2007
+EGY,Egypt,0.0009,2008
+EGY,Egypt,0.0013,2009
+EGY,Egypt,0.015,2010
+EGY,Egypt,0.035,2011
+EGY,Egypt,0.035,2012
+EGY,Egypt,0.035,2013
+EGY,Egypt,0.035,2014
+EGY,Egypt,0.045,2015
+EGY,Egypt,0.068,2016
+EGY,Egypt,0.189,2017
+EGY,Egypt,0.77,2018
+,Europe (other),0.0,1996
+,Europe (other),0.0,1997
+,Europe (other),0.0,1998
+,Europe (other),0.0,1999
+,Europe (other),0.0,2000
+,Europe (other),0.0003,2001
+,Europe (other),0.0018,2002
+,Europe (other),0.0145,2003
+,Europe (other),0.024,2004
+,Europe (other),0.0253,2005
+,Europe (other),0.0255,2006
+,Europe (other),0.0261,2007
+,Europe (other),0.0296,2008
+,Europe (other),0.0383,2009
+,Europe (other),0.0555,2010
+,Europe (other),0.3089,2011
+,Europe (other),0.6441,2012
+,Europe (other),1.2009,2013
+,Europe (other),1.4416,2014
+,Europe (other),1.6313,2015
+,Europe (other),1.9178,2016
+,Europe (other),2.4543,2017
+,Europe (other),3.5219,2018
+FIN,Finland,0.0,1996
+FIN,Finland,0.0,1997
+FIN,Finland,0.0,1998
+FIN,Finland,0.0,1999
+FIN,Finland,0.002,2000
+FIN,Finland,0.003,2001
+FIN,Finland,0.003,2002
+FIN,Finland,0.003,2003
+FIN,Finland,0.004,2004
+FIN,Finland,0.004,2005
+FIN,Finland,0.005,2006
+FIN,Finland,0.005,2007
+FIN,Finland,0.006,2008
+FIN,Finland,0.006,2009
+FIN,Finland,0.007,2010
+FIN,Finland,0.007,2011
+FIN,Finland,0.008,2012
+FIN,Finland,0.009,2013
+FIN,Finland,0.011,2014
+FIN,Finland,0.015,2015
+FIN,Finland,0.035,2016
+FIN,Finland,0.074,2017
+FIN,Finland,0.1247,2018
+FRA,France,0.004,1996
+FRA,France,0.006,1997
+FRA,France,0.008,1998
+FRA,France,0.009,1999
+FRA,France,0.007,2000
+FRA,France,0.007,2001
+FRA,France,0.008,2002
+FRA,France,0.009,2003
+FRA,France,0.011,2004
+FRA,France,0.013,2005
+FRA,France,0.015,2006
+FRA,France,0.026,2007
+FRA,France,0.08,2008
+FRA,France,0.277,2009
+FRA,France,1.044,2010
+FRA,France,3.0036,2011
+FRA,France,4.3588,2012
+FRA,France,5.2773,2013
+FRA,France,6.0344,2014
+FRA,France,7.1375,2015
+FRA,France,7.7021,2016
+FRA,France,8.6104,2017
+FRA,France,9.4834,2018
+DEU,Germany,0.028,1996
+DEU,Germany,0.042,1997
+DEU,Germany,0.054,1998
+DEU,Germany,0.07,1999
+DEU,Germany,0.114,2000
+DEU,Germany,0.195,2001
+DEU,Germany,0.26,2002
+DEU,Germany,0.435,2003
+DEU,Germany,1.105,2004
+DEU,Germany,2.056,2005
+DEU,Germany,2.899,2006
+DEU,Germany,4.17,2007
+DEU,Germany,6.12,2008
+DEU,Germany,10.567,2009
+DEU,Germany,18.007,2010
+DEU,Germany,25.917,2011
+DEU,Germany,34.077,2012
+DEU,Germany,36.711,2013
+DEU,Germany,37.9,2014
+DEU,Germany,39.245,2015
+DEU,Germany,40.716,2016
+DEU,Germany,42.339,2017
+DEU,Germany,45.932,2018
+GRC,Greece,0.0,1996
+GRC,Greece,0.0,1997
+GRC,Greece,0.0,1998
+GRC,Greece,0.0,1999
+GRC,Greece,0.0,2000
+GRC,Greece,0.001,2001
+GRC,Greece,0.001,2002
+GRC,Greece,0.001,2003
+GRC,Greece,0.001,2004
+GRC,Greece,0.001,2005
+GRC,Greece,0.005,2006
+GRC,Greece,0.009,2007
+GRC,Greece,0.012,2008
+GRC,Greece,0.046,2009
+GRC,Greece,0.202,2010
+GRC,Greece,0.612,2011
+GRC,Greece,1.536,2012
+GRC,Greece,2.579,2013
+GRC,Greece,2.596,2014
+GRC,Greece,2.604,2015
+GRC,Greece,2.604,2016
+GRC,Greece,2.6055,2017
+GRC,Greece,2.6515,2018
+HND,Honduras,0.0,1996
+HND,Honduras,0.0,1997
+HND,Honduras,0.0,1998
+HND,Honduras,0.001,1999
+HND,Honduras,0.0016,2000
+HND,Honduras,0.0018,2001
+HND,Honduras,0.002,2002
+HND,Honduras,0.0021,2003
+HND,Honduras,0.0024,2004
+HND,Honduras,0.0027,2005
+HND,Honduras,0.0029,2006
+HND,Honduras,0.0032,2007
+HND,Honduras,0.0032,2008
+HND,Honduras,0.0035,2009
+HND,Honduras,0.0037,2010
+HND,Honduras,0.0045,2011
+HND,Honduras,0.0052,2012
+HND,Honduras,0.0052,2013
+HND,Honduras,0.0052,2014
+HND,Honduras,0.3932,2015
+HND,Honduras,0.4142,2016
+HND,Honduras,0.4511,2017
+HND,Honduras,0.516,2018
+HUN,Hungary,0.0,1996
+HUN,Hungary,0.0,1997
+HUN,Hungary,0.0,1998
+HUN,Hungary,0.0,1999
+HUN,Hungary,0.0,2000
+HUN,Hungary,0.0,2001
+HUN,Hungary,0.0,2002
+HUN,Hungary,0.0,2003
+HUN,Hungary,0.0,2004
+HUN,Hungary,0.0,2005
+HUN,Hungary,0.0,2006
+HUN,Hungary,0.0,2007
+HUN,Hungary,0.001,2008
+HUN,Hungary,0.001,2009
+HUN,Hungary,0.002,2010
+HUN,Hungary,0.004,2011
+HUN,Hungary,0.012,2012
+HUN,Hungary,0.035,2013
+HUN,Hungary,0.089,2014
+HUN,Hungary,0.172,2015
+HUN,Hungary,0.235,2016
+HUN,Hungary,0.344,2017
+HUN,Hungary,0.665,2018
+IND,India,0.0,1996
+IND,India,0.0,1997
+IND,India,0.0,1998
+IND,India,0.0,1999
+IND,India,0.0,2000
+IND,India,0.0011,2001
+IND,India,0.0055,2002
+IND,India,0.0067,2003
+IND,India,0.0079,2004
+IND,India,0.0078,2005
+IND,India,0.0116,2006
+IND,India,0.0096,2007
+IND,India,0.0251,2008
+IND,India,0.0277,2009
+IND,India,0.0394,2010
+IND,India,0.0654,2011
+IND,India,0.5658,2012
+IND,India,0.926,2013
+IND,India,1.3361,2014
+IND,India,3.5183,2015
+IND,India,5.3964,2016
+IND,India,9.6467,2017
+IND,India,17.8728,2018
+ISR,Israel,0.0,1996
+ISR,Israel,0.0003,1997
+ISR,Israel,0.0003,1998
+ISR,Israel,0.0004,1999
+ISR,Israel,0.0,2000
+ISR,Israel,0.0,2001
+ISR,Israel,0.0,2002
+ISR,Israel,0.0,2003
+ISR,Israel,0.0,2004
+ISR,Israel,0.001,2005
+ISR,Israel,0.0013,2006
+ISR,Israel,0.0018,2007
+ISR,Israel,0.009,2008
+ISR,Israel,0.0306,2009
+ISR,Israel,0.076,2010
+ISR,Israel,0.1958,2011
+ISR,Israel,0.2428,2012
+ISR,Israel,0.4261,2013
+ISR,Israel,0.6761,2014
+ISR,Israel,0.7719,2015
+ISR,Israel,0.8721,2016
+ISR,Israel,0.9751,2017
+ISR,Israel,1.0761,2018
+ITA,Italy,0.016,1996
+ITA,Italy,0.017,1997
+ITA,Italy,0.018,1998
+ITA,Italy,0.018,1999
+ITA,Italy,0.019,2000
+ITA,Italy,0.02,2001
+ITA,Italy,0.022,2002
+ITA,Italy,0.026,2003
+ITA,Italy,0.031,2004
+ITA,Italy,0.034,2005
+ITA,Italy,0.045,2006
+ITA,Italy,0.11,2007
+ITA,Italy,0.483,2008
+ITA,Italy,1.264,2009
+ITA,Italy,3.5967,2010
+ITA,Italy,13.1357,2011
+ITA,Italy,16.7897,2012
+ITA,Italy,18.1901,2013
+ITA,Italy,18.6001,2014
+ITA,Italy,18.9071,2015
+ITA,Italy,19.2891,2016
+ITA,Italy,19.6884,2017
+ITA,Italy,20.1261,2018
+JPN,Japan,0.06,1996
+JPN,Japan,0.091,1997
+JPN,Japan,0.133,1998
+JPN,Japan,0.209,1999
+JPN,Japan,0.33,2000
+JPN,Japan,0.453,2001
+JPN,Japan,0.637,2002
+JPN,Japan,0.86,2003
+JPN,Japan,1.132,2004
+JPN,Japan,1.422,2005
+JPN,Japan,1.708,2006
+JPN,Japan,1.919,2007
+JPN,Japan,2.144,2008
+JPN,Japan,2.627,2009
+JPN,Japan,3.618,2010
+JPN,Japan,4.914,2011
+JPN,Japan,6.632,2012
+JPN,Japan,13.599,2013
+JPN,Japan,23.339,2014
+JPN,Japan,34.15,2015
+JPN,Japan,42.04,2016
+JPN,Japan,49.04,2017
+JPN,Japan,55.5,2018
+JOR,Jordan,0.0,1996
+JOR,Jordan,0.0,1997
+JOR,Jordan,0.0,1998
+JOR,Jordan,0.0,1999
+JOR,Jordan,0.0,2000
+JOR,Jordan,0.0,2001
+JOR,Jordan,0.0,2002
+JOR,Jordan,0.0,2003
+JOR,Jordan,0.0,2004
+JOR,Jordan,0.0,2005
+JOR,Jordan,0.0,2006
+JOR,Jordan,0.0,2007
+JOR,Jordan,0.0,2008
+JOR,Jordan,0.0,2009
+JOR,Jordan,0.0,2010
+JOR,Jordan,0.0,2011
+JOR,Jordan,0.0001,2012
+JOR,Jordan,0.0001,2013
+JOR,Jordan,0.0002,2014
+JOR,Jordan,0.0289,2015
+JOR,Jordan,0.2956,2016
+JOR,Jordan,0.396,2017
+JOR,Jordan,0.7715,2018
+MYS,Malaysia,0.0,1996
+MYS,Malaysia,0.0,1997
+MYS,Malaysia,0.0,1998
+MYS,Malaysia,0.0,1999
+MYS,Malaysia,0.0,2000
+MYS,Malaysia,0.0,2001
+MYS,Malaysia,0.0,2002
+MYS,Malaysia,0.0,2003
+MYS,Malaysia,0.0,2004
+MYS,Malaysia,0.0,2005
+MYS,Malaysia,0.0,2006
+MYS,Malaysia,0.0005,2007
+MYS,Malaysia,0.0005,2008
+MYS,Malaysia,0.0005,2009
+MYS,Malaysia,0.0005,2010
+MYS,Malaysia,0.0005,2011
+MYS,Malaysia,0.0251,2012
+MYS,Malaysia,0.0971,2013
+MYS,Malaysia,0.1658,2014
+MYS,Malaysia,0.2291,2015
+MYS,Malaysia,0.2788,2016
+MYS,Malaysia,0.3174,2017
+MYS,Malaysia,0.4378,2018
+MEX,Mexico,0.01,1996
+MEX,Mexico,0.011,1997
+MEX,Mexico,0.012,1998
+MEX,Mexico,0.013,1999
+MEX,Mexico,0.014,2000
+MEX,Mexico,0.015,2001
+MEX,Mexico,0.016,2002
+MEX,Mexico,0.016,2003
+MEX,Mexico,0.016,2004
+MEX,Mexico,0.016,2005
+MEX,Mexico,0.016,2006
+MEX,Mexico,0.019,2007
+MEX,Mexico,0.019,2008
+MEX,Mexico,0.025,2009
+MEX,Mexico,0.029,2010
+MEX,Mexico,0.039,2011
+MEX,Mexico,0.06,2012
+MEX,Mexico,0.082,2013
+MEX,Mexico,0.116,2014
+MEX,Mexico,0.173,2015
+MEX,Mexico,0.3886,2016
+MEX,Mexico,0.6737,2017
+MEX,Mexico,2.555,2018
+NLD,Netherlands,0.0007,1996
+NLD,Netherlands,0.001,1997
+NLD,Netherlands,0.001,1998
+NLD,Netherlands,0.005,1999
+NLD,Netherlands,0.013,2000
+NLD,Netherlands,0.021,2001
+NLD,Netherlands,0.026,2002
+NLD,Netherlands,0.046,2003
+NLD,Netherlands,0.05,2004
+NLD,Netherlands,0.051,2005
+NLD,Netherlands,0.053,2006
+NLD,Netherlands,0.054,2007
+NLD,Netherlands,0.059,2008
+NLD,Netherlands,0.069,2009
+NLD,Netherlands,0.09,2010
+NLD,Netherlands,0.149,2011
+NLD,Netherlands,0.369,2012
+NLD,Netherlands,0.746,2013
+NLD,Netherlands,1.048,2014
+NLD,Netherlands,1.515,2015
+NLD,Netherlands,2.049,2016
+NLD,Netherlands,2.903,2017
+NLD,Netherlands,4.15,2018
+NOR,Norway,0.0049,1996
+NOR,Norway,0.0052,1997
+NOR,Norway,0.0054,1998
+NOR,Norway,0.006,1999
+NOR,Norway,0.006,2000
+NOR,Norway,0.006,2001
+NOR,Norway,0.006,2002
+NOR,Norway,0.007,2003
+NOR,Norway,0.007,2004
+NOR,Norway,0.007,2005
+NOR,Norway,0.008,2006
+NOR,Norway,0.008,2007
+NOR,Norway,0.0083,2008
+NOR,Norway,0.0087,2009
+NOR,Norway,0.0091,2010
+NOR,Norway,0.0095,2011
+NOR,Norway,0.01,2012
+NOR,Norway,0.011,2013
+NOR,Norway,0.013,2014
+NOR,Norway,0.015,2015
+NOR,Norway,0.0267,2016
+NOR,Norway,0.0449,2017
+NOR,Norway,0.0684,2018
+,Other Africa,0.001012425,1996
+,Other Africa,0.001037276,1997
+,Other Africa,0.001062126,1998
+,Other Africa,0.002099402,1999
+,Other Africa,0.0031,2000
+,Other Africa,0.0036,2001
+,Other Africa,0.0045,2002
+,Other Africa,0.006,2003
+,Other Africa,0.009,2004
+,Other Africa,0.012,2005
+,Other Africa,0.0194,2006
+,Other Africa,0.0305,2007
+,Other Africa,0.0458,2008
+,Other Africa,0.0875,2009
+,Other Africa,0.1769,2010
+,Other Africa,0.2059,2011
+,Other Africa,0.2803,2012
+,Other Africa,0.405,2013
+,Other Africa,0.5008,2014
+,Other Africa,0.7891,2015
+,Other Africa,0.9118,2016
+,Other Africa,1.1839,2017
+,Other Africa,1.9294,2018
+,Other Asia & Pacific,0.0,1996
+,Other Asia & Pacific,0.0,1997
+,Other Asia & Pacific,0.001,1998
+,Other Asia & Pacific,0.002,1999
+,Other Asia & Pacific,-0.0003,2000
+,Other Asia & Pacific,0.004,2001
+,Other Asia & Pacific,0.0026,2002
+,Other Asia & Pacific,0.0039,2003
+,Other Asia & Pacific,0.0061,2004
+,Other Asia & Pacific,0.0112,2005
+,Other Asia & Pacific,0.0109,2006
+,Other Asia & Pacific,0.0392,2007
+,Other Asia & Pacific,0.0299,2008
+,Other Asia & Pacific,-0.0044,2009
+,Other Asia & Pacific,-0.0558,2010
+,Other Asia & Pacific,0.6225,2011
+,Other Asia & Pacific,0.548,2012
+,Other Asia & Pacific,0.664,2013
+,Other Asia & Pacific,2.5344,2014
+,Other Asia & Pacific,2.4417,2015
+,Other Asia & Pacific,5.0041,2016
+,Other Asia & Pacific,9.2441,2017
+,Other Asia & Pacific,10.6026,2018
+,Other CIS,0.0,1996
+,Other CIS,0.0,1997
+,Other CIS,0.0,1998
+,Other CIS,0.0,1999
+,Other CIS,0.0,2000
+,Other CIS,0.0,2001
+,Other CIS,0.0,2002
+,Other CIS,0.0,2003
+,Other CIS,0.0,2004
+,Other CIS,0.0,2005
+,Other CIS,0.0,2006
+,Other CIS,0.0001,2007
+,Other CIS,0.0001,2008
+,Other CIS,0.0001,2009
+,Other CIS,0.0003,2010
+,Other CIS,0.001,2011
+,Other CIS,0.001,2012
+,Other CIS,0.001,2013
+,Other CIS,0.0024,2014
+,Other CIS,0.005,2015
+,Other CIS,0.026,2016
+,Other CIS,0.0308,2017
+,Other CIS,0.0538,2018
+,Other Middle East,0.0,1996
+,Other Middle East,0.0,1997
+,Other Middle East,0.0,1998
+,Other Middle East,0.0,1999
+,Other Middle East,0.0004,2000
+,Other Middle East,0.0004,2001
+,Other Middle East,0.0004,2002
+,Other Middle East,0.0004,2003
+,Other Middle East,0.0004,2004
+,Other Middle East,0.0004,2005
+,Other Middle East,0.0004,2006
+,Other Middle East,0.0005,2007
+,Other Middle East,0.0014,2008
+,Other Middle East,0.0016,2009
+,Other Middle East,0.0041,2010
+,Other Middle East,0.0061,2011
+,Other Middle East,0.0178,2012
+,Other Middle East,0.0614,2013
+,Other Middle East,0.0946,2014
+,Other Middle East,0.2177,2015
+,Other Middle East,0.3259,2016
+,Other Middle East,0.4568,2017
+,Other Middle East,0.7395,2018
+,Other S. & Cent. America,0.0,1996
+,Other S. & Cent. America,0.0,1997
+,Other S. & Cent. America,0.0,1998
+,Other S. & Cent. America,0.001,1999
+,Other S. & Cent. America,0.0027,2000
+,Other S. & Cent. America,0.005,2001
+,Other S. & Cent. America,0.0073,2002
+,Other S. & Cent. America,0.0093,2003
+,Other S. & Cent. America,0.0113,2004
+,Other S. & Cent. America,0.0136,2005
+,Other S. & Cent. America,0.0194,2006
+,Other S. & Cent. America,0.026,2007
+,Other S. & Cent. America,0.0354,2008
+,Other S. & Cent. America,0.0587,2009
+,Other S. & Cent. America,0.1122,2010
+,Other S. & Cent. America,0.163,2011
+,Other S. & Cent. America,0.3149,2012
+,Other S. & Cent. America,0.4293,2013
+,Other S. & Cent. America,0.5687,2014
+,Other S. & Cent. America,0.831,2015
+,Other S. & Cent. America,1.0769,2016
+,Other S. & Cent. America,1.5454,2017
+,Other S. & Cent. America,2.2569,2018
+PAK,Pakistan,0.0,1996
+PAK,Pakistan,0.0,1997
+PAK,Pakistan,0.0,1998
+PAK,Pakistan,0.0,1999
+PAK,Pakistan,0.0,2000
+PAK,Pakistan,0.0,2001
+PAK,Pakistan,0.0,2002
+PAK,Pakistan,0.0,2003
+PAK,Pakistan,0.0,2004
+PAK,Pakistan,0.0,2005
+PAK,Pakistan,0.0,2006
+PAK,Pakistan,0.0001,2007
+PAK,Pakistan,0.0011,2008
+PAK,Pakistan,0.0037,2009
+PAK,Pakistan,0.0093,2010
+PAK,Pakistan,0.0186,2011
+PAK,Pakistan,0.0457,2012
+PAK,Pakistan,0.1005,2013
+PAK,Pakistan,0.1652,2014
+PAK,Pakistan,0.23,2015
+PAK,Pakistan,0.4105,2016
+PAK,Pakistan,0.7417,2017
+PAK,Pakistan,1.5681,2018
+PHL,Philippines,0.0,1996
+PHL,Philippines,0.0,1997
+PHL,Philippines,0.0,1998
+PHL,Philippines,0.0,1999
+PHL,Philippines,0.0,2000
+PHL,Philippines,0.0,2001
+PHL,Philippines,0.0,2002
+PHL,Philippines,0.0,2003
+PHL,Philippines,0.001,2004
+PHL,Philippines,0.001,2005
+PHL,Philippines,0.001,2006
+PHL,Philippines,0.001,2007
+PHL,Philippines,0.001,2008
+PHL,Philippines,0.001,2009
+PHL,Philippines,0.001,2010
+PHL,Philippines,0.001,2011
+PHL,Philippines,0.001,2012
+PHL,Philippines,0.001,2013
+PHL,Philippines,0.023,2014
+PHL,Philippines,0.1653,2015
+PHL,Philippines,0.7586,2016
+PHL,Philippines,0.8861,2017
+PHL,Philippines,0.8864,2018
+PRT,Portugal,0.0004,1996
+PRT,Portugal,0.0005,1997
+PRT,Portugal,0.0006,1998
+PRT,Portugal,0.0009,1999
+PRT,Portugal,0.001,2000
+PRT,Portugal,0.001,2001
+PRT,Portugal,0.001,2002
+PRT,Portugal,0.002,2003
+PRT,Portugal,0.002,2004
+PRT,Portugal,0.002,2005
+PRT,Portugal,0.003,2006
+PRT,Portugal,0.024,2007
+PRT,Portugal,0.059,2008
+PRT,Portugal,0.115,2009
+PRT,Portugal,0.134,2010
+PRT,Portugal,0.172,2011
+PRT,Portugal,0.238,2012
+PRT,Portugal,0.296,2013
+PRT,Portugal,0.415,2014
+PRT,Portugal,0.447,2015
+PRT,Portugal,0.5128,2016
+PRT,Portugal,0.5792,2017
+PRT,Portugal,0.6702,2018
+ROU,Romania,0.0,1996
+ROU,Romania,0.0,1997
+ROU,Romania,0.0,1998
+ROU,Romania,0.0,1999
+ROU,Romania,0.0,2000
+ROU,Romania,0.0,2001
+ROU,Romania,0.0,2002
+ROU,Romania,0.0,2003
+ROU,Romania,0.0,2004
+ROU,Romania,0.0,2005
+ROU,Romania,0.0,2006
+ROU,Romania,0.0,2007
+ROU,Romania,0.0001,2008
+ROU,Romania,0.0001,2009
+ROU,Romania,0.0001,2010
+ROU,Romania,0.001,2011
+ROU,Romania,0.041,2012
+ROU,Romania,0.761,2013
+ROU,Romania,1.293,2014
+ROU,Romania,1.326,2015
+ROU,Romania,1.372,2016
+ROU,Romania,1.3742,2017
+ROU,Romania,1.3772,2018
+RUS,Russia,0.0,1996
+RUS,Russia,0.0,1997
+RUS,Russia,0.0,1998
+RUS,Russia,0.0,1999
+RUS,Russia,0.0,2000
+RUS,Russia,0.0,2001
+RUS,Russia,0.0,2002
+RUS,Russia,0.0,2003
+RUS,Russia,0.0,2004
+RUS,Russia,0.0,2005
+RUS,Russia,0.0,2006
+RUS,Russia,0.0,2007
+RUS,Russia,0.0,2008
+RUS,Russia,0.0,2009
+RUS,Russia,0.0,2010
+RUS,Russia,0.0,2011
+RUS,Russia,0.0001,2012
+RUS,Russia,0.0013,2013
+RUS,Russia,0.0066,2014
+RUS,Russia,0.0617,2015
+RUS,Russia,0.0767,2016
+RUS,Russia,0.2357,2017
+RUS,Russia,0.5457,2018
+SVK,Slovakia,0.0,1996
+SVK,Slovakia,0.0,1997
+SVK,Slovakia,0.0,1998
+SVK,Slovakia,0.0,1999
+SVK,Slovakia,0.0,2000
+SVK,Slovakia,0.0,2001
+SVK,Slovakia,0.0,2002
+SVK,Slovakia,0.0,2003
+SVK,Slovakia,0.0,2004
+SVK,Slovakia,0.0,2005
+SVK,Slovakia,0.0,2006
+SVK,Slovakia,0.0,2007
+SVK,Slovakia,0.0,2008
+SVK,Slovakia,0.0,2009
+SVK,Slovakia,0.019,2010
+SVK,Slovakia,0.496,2011
+SVK,Slovakia,0.513,2012
+SVK,Slovakia,0.533,2013
+SVK,Slovakia,0.533,2014
+SVK,Slovakia,0.533,2015
+SVK,Slovakia,0.533,2016
+SVK,Slovakia,0.528,2017
+SVK,Slovakia,0.531,2018
+ZAF,South Africa,0.0,1996
+ZAF,South Africa,0.002,1997
+ZAF,South Africa,0.004,1998
+ZAF,South Africa,0.006,1999
+ZAF,South Africa,0.0078,2000
+ZAF,South Africa,0.0091,2001
+ZAF,South Africa,0.0104,2002
+ZAF,South Africa,0.0117,2003
+ZAF,South Africa,0.013,2004
+ZAF,South Africa,0.0143,2005
+ZAF,South Africa,0.0156,2006
+ZAF,South Africa,0.0169,2007
+ZAF,South Africa,0.0182,2008
+ZAF,South Africa,0.0196,2009
+ZAF,South Africa,0.0232,2010
+ZAF,South Africa,0.0674,2011
+ZAF,South Africa,0.0722,2012
+ZAF,South Africa,0.2616,2013
+ZAF,South Africa,1.1629,2014
+ZAF,South Africa,1.3517,2015
+ZAF,South Africa,2.174,2016
+ZAF,South Africa,2.4864,2017
+ZAF,South Africa,2.9588,2018
+KOR,South Korea,0.0,1996
+KOR,South Korea,0.0,1997
+KOR,South Korea,0.0,1998
+KOR,South Korea,0.0,1999
+KOR,South Korea,0.004,2000
+KOR,South Korea,0.005,2001
+KOR,South Korea,0.005,2002
+KOR,South Korea,0.006,2003
+KOR,South Korea,0.009,2004
+KOR,South Korea,0.014,2005
+KOR,South Korea,0.036,2006
+KOR,South Korea,0.081,2007
+KOR,South Korea,0.357,2008
+KOR,South Korea,0.524,2009
+KOR,South Korea,0.65,2010
+KOR,South Korea,0.7302,2011
+KOR,South Korea,1.0242,2012
+KOR,South Korea,1.5552,2013
+KOR,South Korea,2.4812,2014
+KOR,South Korea,3.6132,2015
+KOR,South Korea,4.5022,2016
+KOR,South Korea,5.8347,2017
+KOR,South Korea,7.8619,2018
+ESP,Spain,0.001,1996
+ESP,Spain,0.001,1997
+ESP,Spain,0.001,1998
+ESP,Spain,0.002,1999
+ESP,Spain,0.01,2000
+ESP,Spain,0.013,2001
+ESP,Spain,0.017,2002
+ESP,Spain,0.022,2003
+ESP,Spain,0.033,2004
+ESP,Spain,0.052,2005
+ESP,Spain,0.141,2006
+ESP,Spain,0.505,2007
+ESP,Spain,3.445,2008
+ESP,Spain,3.705,2009
+ESP,Spain,4.605,2010
+ESP,Spain,5.432,2011
+ESP,Spain,6.569,2012
+ESP,Spain,6.994,2013
+ESP,Spain,7.001,2014
+ESP,Spain,7.008,2015
+ESP,Spain,7.02,2016
+ESP,Spain,7.029,2017
+ESP,Spain,7.0477,2018
+SWE,Sweden,0.002,1996
+SWE,Sweden,0.002,1997
+SWE,Sweden,0.002,1998
+SWE,Sweden,0.003,1999
+SWE,Sweden,0.003,2000
+SWE,Sweden,0.003,2001
+SWE,Sweden,0.003,2002
+SWE,Sweden,0.004,2003
+SWE,Sweden,0.004,2004
+SWE,Sweden,0.004,2005
+SWE,Sweden,0.005,2006
+SWE,Sweden,0.006,2007
+SWE,Sweden,0.008,2008
+SWE,Sweden,0.009,2009
+SWE,Sweden,0.011,2010
+SWE,Sweden,0.012,2011
+SWE,Sweden,0.024,2012
+SWE,Sweden,0.043,2013
+SWE,Sweden,0.06,2014
+SWE,Sweden,0.104,2015
+SWE,Sweden,0.153,2016
+SWE,Sweden,0.291,2017
+SWE,Sweden,0.421,2018
+CHE,Switzerland,0.008,1996
+CHE,Switzerland,0.01,1997
+CHE,Switzerland,0.012,1998
+CHE,Switzerland,0.013,1999
+CHE,Switzerland,0.016,2000
+CHE,Switzerland,0.018,2001
+CHE,Switzerland,0.02,2002
+CHE,Switzerland,0.022,2003
+CHE,Switzerland,0.024,2004
+CHE,Switzerland,0.028,2005
+CHE,Switzerland,0.03,2006
+CHE,Switzerland,0.037,2007
+CHE,Switzerland,0.049,2008
+CHE,Switzerland,0.079,2009
+CHE,Switzerland,0.125,2010
+CHE,Switzerland,0.223,2011
+CHE,Switzerland,0.437,2012
+CHE,Switzerland,0.756,2013
+CHE,Switzerland,1.061,2014
+CHE,Switzerland,1.394,2015
+CHE,Switzerland,1.664,2016
+CHE,Switzerland,1.906,2017
+CHE,Switzerland,2.246,2018
+TWN,Taiwan,0.0,1996
+TWN,Taiwan,0.0,1997
+TWN,Taiwan,0.0,1998
+TWN,Taiwan,0.0,1999
+TWN,Taiwan,0.0001,2000
+TWN,Taiwan,0.0002,2001
+TWN,Taiwan,0.0003,2002
+TWN,Taiwan,0.0005,2003
+TWN,Taiwan,0.0006,2004
+TWN,Taiwan,0.001,2005
+TWN,Taiwan,0.0014,2006
+TWN,Taiwan,0.0024,2007
+TWN,Taiwan,0.0056,2008
+TWN,Taiwan,0.0095,2009
+TWN,Taiwan,0.022,2010
+TWN,Taiwan,0.1179,2011
+TWN,Taiwan,0.2225,2012
+TWN,Taiwan,0.392,2013
+TWN,Taiwan,0.6202,2014
+TWN,Taiwan,0.8422,2015
+TWN,Taiwan,1.245,2016
+TWN,Taiwan,1.7677,2017
+TWN,Taiwan,2.6177,2018
+THA,Thailand,0.0,1996
+THA,Thailand,0.0,1997
+THA,Thailand,0.0,1998
+THA,Thailand,0.0,1999
+THA,Thailand,0.0,2000
+THA,Thailand,0.0,2001
+THA,Thailand,0.0,2002
+THA,Thailand,0.0,2003
+THA,Thailand,0.0,2004
+THA,Thailand,0.0,2005
+THA,Thailand,0.0304,2006
+THA,Thailand,0.0323,2007
+THA,Thailand,0.0324,2008
+THA,Thailand,0.037,2009
+THA,Thailand,0.0486,2010
+THA,Thailand,0.0787,2011
+THA,Thailand,0.3817,2012
+THA,Thailand,0.8285,2013
+THA,Thailand,1.3035,2014
+THA,Thailand,1.4246,2015
+THA,Thailand,2.4511,2016
+THA,Thailand,2.7023,2017
+THA,Thailand,2.7252,2018
+,Total Africa,0.001012425,1996
+,Total Africa,0.003037276,1997
+,Total Africa,0.005062126,1998
+,Total Africa,0.008099402,1999
+,Total Africa,0.011,2000
+,Total Africa,0.0132,2001
+,Total Africa,0.0155,2002
+,Total Africa,0.0183,2003
+,Total Africa,0.0226,2004
+,Total Africa,0.0269,2005
+,Total Africa,0.0356,2006
+,Total Africa,0.0481,2007
+,Total Africa,0.0649,2008
+,Total Africa,0.1084,2009
+,Total Africa,0.2401,2010
+,Total Africa,0.3333,2011
+,Total Africa,0.4125,2012
+,Total Africa,0.7266,2013
+,Total Africa,1.7248,2014
+,Total Africa,2.2599,2015
+,Total Africa,3.3979,2016
+,Total Africa,4.2843,2017
+,Total Africa,6.0932,2018
+,Total Asia Pacific,0.077,1996
+,Total Asia Pacific,0.1125,1997
+,Total Asia Pacific,0.162,1998
+,Total Asia Pacific,0.246,1999
+,Total Asia Pacific,0.3963,2000
+,Total Asia Pacific,0.5353,2001
+,Total Asia Pacific,0.7459,2002
+,Total Asia Pacific,0.9897,2003
+,Total Asia Pacific,1.2852,2004
+,Total Asia Pacific,1.6592,2005
+,Total Asia Pacific,2.0295,2006
+,Total Asia Pacific,2.3661,2007
+,Total Asia Pacific,2.9546,2008
+,Total Asia Pacific,3.8288,2009
+,Total Asia Pacific,5.9285,2010
+,Total Asia Pacific,11.0588,2011
+,Total Asia Pacific,18.6065,2012
+,Total Asia Pacific,39.183,2013
+,Total Asia Pacific,64.3771,2014
+,Total Asia Pacific,94.5261,2015
+,Total Asia Pacific,144.6094,2016
+,Total Asia Pacific,216.9903,2017
+,Total Asia Pacific,284.8729,2018
+,Total CIS,0.0,1996
+,Total CIS,0.0,1997
+,Total CIS,0.0,1998
+,Total CIS,0.0,1999
+,Total CIS,0.0,2000
+,Total CIS,0.0,2001
+,Total CIS,0.0,2002
+,Total CIS,0.0,2003
+,Total CIS,0.0,2004
+,Total CIS,0.0,2005
+,Total CIS,0.0,2006
+,Total CIS,0.0001,2007
+,Total CIS,0.0001,2008
+,Total CIS,0.0001,2009
+,Total CIS,0.0003,2010
+,Total CIS,0.001,2011
+,Total CIS,0.0011,2012
+,Total CIS,0.0023,2013
+,Total CIS,0.009,2014
+,Total CIS,0.0667,2015
+,Total CIS,0.1027,2016
+,Total CIS,0.2665,2017
+,Total CIS,0.5995,2018
+,Total Europe,0.0669,1996
+,Total Europe,0.0873,1997
+,Total Europe,0.1054,1998
+,Total Europe,0.1315,1999
+,Total Europe,0.1992,2000
+,Total Europe,0.2997,2001
+,Total Europe,0.3856,2002
+,Total Europe,0.6248,2003
+,Total Europe,1.3359,2004
+,Total Europe,2.3173,2005
+,Total Europe,3.2794,2006
+,Total Europe,5.0523,2007
+,Total Europe,10.5218,2008
+,Total Europe,17.1237,2009
+,Total Europe,30.8653,2010
+,Total Europe,54.9148,2011
+,Total Europe,74.1839,2012
+,Total Europe,85.0298,2013
+,Total Europe,91.9852,2014
+,Total Europe,100.7003,2015
+,Total Europe,107.8986,2016
+,Total Europe,117.0587,2017
+,Total Europe,128.7584,2018
+,Total Middle East,0.0,1996
+,Total Middle East,0.0003,1997
+,Total Middle East,0.0003,1998
+,Total Middle East,0.0004,1999
+,Total Middle East,0.0004,2000
+,Total Middle East,0.0004,2001
+,Total Middle East,0.0004,2002
+,Total Middle East,0.0004,2003
+,Total Middle East,0.0004,2004
+,Total Middle East,0.0014,2005
+,Total Middle East,0.0017,2006
+,Total Middle East,0.0023,2007
+,Total Middle East,0.0104,2008
+,Total Middle East,0.0422,2009
+,Total Middle East,0.0909,2010
+,Total Middle East,0.2145,2011
+,Total Middle East,0.2751,2012
+,Total Middle East,0.6176,2013
+,Total Middle East,0.9052,2014
+,Total Middle East,1.1532,2015
+,Total Middle East,1.6356,2016
+,Total Middle East,2.1827,2017
+,Total Middle East,3.1808,2018
+,Total North America,0.0269,1996
+,Total North America,0.0286,1997
+,Total North America,0.0322,1998
+,Total North America,0.0356,1999
+,Total North America,0.0395,2000
+,Total North America,0.0459,2001
+,Total North America,0.054,2002
+,Total North America,0.101,2003
+,Total North America,0.141,2004
+,Total North America,0.223,2005
+,Total North America,0.332,2006
+,Total North America,0.5,2007
+,Total North America,0.805,2008
+,Total North America,1.308,2009
+,Total North America,2.29,2010
+,Total North America,3.918,2011
+,Total North America,8.154,2012
+,Total North America,14.337,2013
+,Total North America,18.504,2014
+,Total North America,26.132,2015
+,Total North America,37.9076,2016
+,Total North America,46.5777,2017
+,Total North America,57.118,2018
+,Total S. & Cent. America,0.0,1996
+,Total S. & Cent. America,0.0,1997
+,Total S. & Cent. America,0.0,1998
+,Total S. & Cent. America,0.002,1999
+,Total S. & Cent. America,0.0043,2000
+,Total S. & Cent. America,0.0068,2001
+,Total S. & Cent. America,0.0093,2002
+,Total S. & Cent. America,0.0114,2003
+,Total S. & Cent. America,0.0137,2004
+,Total S. & Cent. America,0.0163,2005
+,Total S. & Cent. America,0.0223,2006
+,Total S. & Cent. America,0.0292,2007
+,Total S. & Cent. America,0.0386,2008
+,Total S. & Cent. America,0.0622,2009
+,Total S. & Cent. America,0.1169,2010
+,Total S. & Cent. America,0.1685,2011
+,Total S. & Cent. America,0.3241,2012
+,Total S. & Cent. America,0.4545,2013
+,Total S. & Cent. America,0.8099,2014
+,Total S. & Cent. America,1.8231,2015
+,Total S. & Cent. America,2.6961,2016
+,Total S. & Cent. America,4.9025,2017
+,Total S. & Cent. America,7.2059,2018
+TUR,Turkey,0.0,1996
+TUR,Turkey,0.0,1997
+TUR,Turkey,0.0,1998
+TUR,Turkey,0.0,1999
+TUR,Turkey,0.0001,2000
+TUR,Turkey,0.0003,2001
+TUR,Turkey,0.0006,2002
+TUR,Turkey,0.001,2003
+TUR,Turkey,0.0015,2004
+TUR,Turkey,0.002,2005
+TUR,Turkey,0.0025,2006
+TUR,Turkey,0.003,2007
+TUR,Turkey,0.0037,2008
+TUR,Turkey,0.0047,2009
+TUR,Turkey,0.0057,2010
+TUR,Turkey,0.0067,2011
+TUR,Turkey,0.0117,2012
+TUR,Turkey,0.0187,2013
+TUR,Turkey,0.041,2014
+TUR,Turkey,0.25,2015
+TUR,Turkey,0.834,2016
+TUR,Turkey,3.4217,2017
+TUR,Turkey,5.0639,2018
+UKR,Ukraine,0.0,1996
+UKR,Ukraine,0.0,1997
+UKR,Ukraine,0.0,1998
+UKR,Ukraine,0.0,1999
+UKR,Ukraine,0.0,2000
+UKR,Ukraine,0.0,2001
+UKR,Ukraine,0.0,2002
+UKR,Ukraine,0.0,2003
+UKR,Ukraine,0.0,2004
+UKR,Ukraine,0.0,2005
+UKR,Ukraine,0.0,2006
+UKR,Ukraine,0.0,2007
+UKR,Ukraine,0.0,2008
+UKR,Ukraine,0.0,2009
+UKR,Ukraine,0.0025,2010
+UKR,Ukraine,0.1882,2011
+UKR,Ukraine,0.3716,2012
+UKR,Ukraine,0.7484,2013
+UKR,Ukraine,0.8191,2014
+UKR,Ukraine,0.8412,2015
+UKR,Ukraine,0.9547,2016
+UKR,Ukraine,1.2,2017
+UKR,Ukraine,2.0027,2018
+ARE,United Arab Emirates,0.0,1996
+ARE,United Arab Emirates,0.0,1997
+ARE,United Arab Emirates,0.0,1998
+ARE,United Arab Emirates,0.0,1999
+ARE,United Arab Emirates,0.0,2000
+ARE,United Arab Emirates,0.0,2001
+ARE,United Arab Emirates,0.0,2002
+ARE,United Arab Emirates,0.0,2003
+ARE,United Arab Emirates,0.0,2004
+ARE,United Arab Emirates,0.0,2005
+ARE,United Arab Emirates,0.0,2006
+ARE,United Arab Emirates,0.0,2007
+ARE,United Arab Emirates,0.0,2008
+ARE,United Arab Emirates,0.01,2009
+ARE,United Arab Emirates,0.0108,2010
+ARE,United Arab Emirates,0.0126,2011
+ARE,United Arab Emirates,0.0144,2012
+ARE,United Arab Emirates,0.13,2013
+ARE,United Arab Emirates,0.1343,2014
+ARE,United Arab Emirates,0.1347,2015
+ARE,United Arab Emirates,0.142,2016
+ARE,United Arab Emirates,0.3548,2017
+ARE,United Arab Emirates,0.5937,2018
+GBR,United Kingdom,0.0002,1996
+GBR,United Kingdom,0.0004,1997
+GBR,United Kingdom,0.0005,1998
+GBR,United Kingdom,0.0009,1999
+GBR,United Kingdom,0.002,2000
+GBR,United Kingdom,0.003,2001
+GBR,United Kingdom,0.004,2002
+GBR,United Kingdom,0.006,2003
+GBR,United Kingdom,0.008,2004
+GBR,United Kingdom,0.011,2005
+GBR,United Kingdom,0.014,2006
+GBR,United Kingdom,0.018,2007
+GBR,United Kingdom,0.023,2008
+GBR,United Kingdom,0.027,2009
+GBR,United Kingdom,0.095,2010
+GBR,United Kingdom,1.0,2011
+GBR,United Kingdom,1.753,2012
+GBR,United Kingdom,2.937,2013
+GBR,United Kingdom,5.528,2014
+GBR,United Kingdom,9.601,2015
+GBR,United Kingdom,11.912,2016
+GBR,United Kingdom,12.776,2017
+GBR,United Kingdom,13.108,2018
+USA,United States,0.0139,1996
+USA,United States,0.0146,1997
+USA,United States,0.0152,1998
+USA,United States,0.0166,1999
+USA,United States,0.0185,2000
+USA,United States,0.0219,2001
+USA,United States,0.028,2002
+USA,United States,0.073,2003
+USA,United States,0.111,2004
+USA,United States,0.19,2005
+USA,United States,0.295,2006
+USA,United States,0.455,2007
+USA,United States,0.753,2008
+USA,United States,1.188,2009
+USA,United States,2.04,2010
+USA,United States,3.382,2011
+USA,United States,7.328,2012
+USA,United States,13.045,2013
+USA,United States,16.545,2014
+USA,United States,23.442,2015
+USA,United States,34.858,2016
+USA,United States,43.031,2017
+USA,United States,51.45,2018
+OWID_WRL,World,0.1728,1996
+OWID_WRL,World,0.231737276,1997
+OWID_WRL,World,0.304962126,1998
+OWID_WRL,World,0.423599402,1999
+OWID_WRL,World,0.6507,2000
+OWID_WRL,World,0.9013,2001
+OWID_WRL,World,1.2107,2002
+OWID_WRL,World,1.7456,2003
+OWID_WRL,World,2.7988,2004
+OWID_WRL,World,4.2441,2005
+OWID_WRL,World,5.7005,2006
+OWID_WRL,World,7.9981,2007
+OWID_WRL,World,14.3954,2008
+OWID_WRL,World,22.4734,2009
+OWID_WRL,World,39.532,2010
+OWID_WRL,World,70.6089,2011
+OWID_WRL,World,101.9572,2012
+OWID_WRL,World,140.3508,2013
+OWID_WRL,World,178.3152,2014
+OWID_WRL,World,226.6613,2015
+OWID_WRL,World,298.2479,2016
+OWID_WRL,World,392.2627,2017
+OWID_WRL,World,487.8287,2018

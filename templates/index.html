@@ -10,11 +10,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
   <!--CSS Link-->
   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="../static/css/style.css">
 
 </head>
 
@@ -42,9 +44,9 @@
   
                   </li>
   
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                       <a class="nav-link" href="comparisons.html">Comparisons</a>
-                  </li>
+                  </li> -->
                   
   
           
@@ -66,21 +68,141 @@
 
 
     <!-- Content Section -->
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-7 col-md-12">
+    <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
+        <!-- <div class="col-lg-7 col-md-12"> -->
 
             <!-- Left box  -->
             <div class="box">
                 <h3 class="title">Solar Data Visualization</h3>
                 <hr>
-                <img src="/data/solar_panels.jpg" class="vizualization rounded float-left" alt="Solar Panels">
+                <!-- <img src="../static/img/solar_panels.jpg" class="vizualization rounded float-left" alt="Solar Panels"> -->
                 
-            </div>
-        </div>
-    <div class="col-lg-5 col-md-12">
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- <div class="col-lg-5 col-md-12"> -->
     
-        
+        <style>
+            div {
+              background-image: url('../static/img/solar_panels.jpg'); size:"width: 500px; height:400px;"
+            }
+        </style>
+
+        <div class="container">
+            <div class="row margin-top-50">
+              <div class="col-md-2">
+                <aside class="filters">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" style="font-family: 'Michroma', sans-serif;">Solar Consumption</div>
+                    <div class="panel-body">
+                      <form>
+                        <div class="form-group">
+      
+                          <ul class="list-group" id="filters">
+                            <li class="filter list-group-item" style="background-color: black;">
+                              <label for="date">Enter a Year</label>
+                              <input class="form-control" id="datetime" type="text" placeholder="1965">
+                            </li>
+                            <li class="filter list-group-item" style="background-color: black;">
+                              <label for="date">Enter a Country</label>
+                              <input class="form-control" id="country" type="text" placeholder="Africa">
+                            </li>
+      
+                          </ul>
+                        </div>
+                        <button id="filter-btn" type="submit" style="margin:5px" class="btn btn-default">Filter Table</button> <br>
+                        
+
+                        <button id="reset-btn" type="reset"  style="margin:5px" class="btn btn-default">Reset Table</button>
+                      </form>
+      
+                    </div>
+                  </div>
+                </aside>
+              </div>
+              <div class="col-md-10">
+                <div id="table-area" class="">
+                  <table id="ufo-table" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="table-head">Code</th>
+                        <th class="table-head">Geo-Entity</th>
+                        <th class="table-head">Solar Generation (TWh)</th>
+                        <th class="table-head">Year</th>
+                        <!-- <th class="table-head">Shape</th> -->
+                        <!-- <th class="table-head">Duration</th> -->
+                        
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<br>
+<br>
+
+<!-- ---------------------------------------------------------------------------------- -->
+
+
+<div class="container">
+    <div class="row margin-top-50">
+      <div class="col-md-2">
+        <aside class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading" style="font-family: 'Michroma', sans-serif;">Solar Capacity</div>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+
+                  <ul class="list-group" id="filters">
+                    <li class="filter list-group-item" style="background-color: black;">
+                      <label for="date">Enter a Year</label>
+                      <input class="form-control" id="datetime" type="text" placeholder="1996">
+                    </li>
+                    <li class="filter list-group-item" style="background-color: black;">
+                      <label for="date">Enter a Country</label>
+                      <input class="form-control" id="country" type="text" placeholder="Algeria">
+                    </li>
+
+                  </ul>
+                </div>
+                <button id="filter-btn" type="submit" style="margin:5px" color="Blue" class="btn btn-default">Filter Table</button> <br>
+                
+
+                <button id="reset-btn" type="reset"  style="margin:5px" class="btn btn-default">Reset Table</button>
+              </form>
+
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-10">
+        <div id="table-area" class="">
+          <table id="ufo-table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Code</th>
+                <th class="table-head">Geo-Entity</th>
+                <th class="table-head">Solar Capacity (GWh)</th>
+                <th class="table-head">Year</th>
+                <!-- <th class="table-head">Shape</th> -->
+                <!-- <th class="table-head">Duration</th> -->
+                
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
 
 
@@ -98,7 +220,11 @@
         crossorigin="anonymous"></script>
 
     <div id="plot"></div>
-    <script src="../static/app.js"></script>
+    <!-- <script src="../static/data.json"></script> -->
+    <script src="../static/js/data.js"></script>
+    <script src="../static/js/app.js"></script>
+    <!-- <script src="../static/js/sample.js"></script> -->
+    
     
 </body>
 
