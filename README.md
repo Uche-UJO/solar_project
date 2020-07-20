@@ -1,1 +1,2 @@
-#### Visualizing worldwide installed solar PV capacity vs consumption.
+### Visualizing worldwide  solar PV capacity and consumption.
+#### https://solar-data.herokuapp.com/
