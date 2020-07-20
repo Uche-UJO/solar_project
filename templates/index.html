@@ -44,19 +44,17 @@
   
                   </li>
   
-                  <!-- <li class="nav-item">
-                      <a class="nav-link" href="comparisons.html">Comparisons</a>
-                  </li> -->
                   
-  
+                  
+   
           
               </ul>
-              <form class="form-inline my-2 my-lg-0">
+              <!-- <form class="form-inline my-2 my-lg-0">
                   <input class="form-control mr-sm-2" type="text" placeholder="Search">
                   <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                   
                   
-              </form>
+              </form> -->
           </div>
       </nav>
   </div>    
@@ -93,19 +91,20 @@
               <div class="col-md-2">
                 <aside class="filters">
                   <div class="panel panel-default">
-                    <div class="panel-heading" style="font-family: 'Michroma', sans-serif;">Solar Consumption</div>
+                    <div class="panel-heading" style="font-family: 'Michroma', sans-serif;">Solar Capacity</div>
                     <div class="panel-body">
+                      <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
                       <form>
                         <div class="form-group">
       
                           <ul class="list-group" id="filters">
                             <li class="filter list-group-item" style="background-color: black;">
                               <label for="date">Enter a Year</label>
-                              <input class="form-control" id="datetime" type="text" placeholder="1965">
+                              <input class="form-control" id="datetime" type="text" placeholder="1996">
                             </li>
                             <li class="filter list-group-item" style="background-color: black;">
                               <label for="date">Enter a Country</label>
-                              <input class="form-control" id="country" type="text" placeholder="Africa">
+                              <input class="form-control" id="country" type="text" placeholder="Algeria">
                             </li>
       
                           </ul>
@@ -122,12 +121,12 @@
               </div>
               <div class="col-md-10">
                 <div id="table-area" class="">
-                  <table id="ufo-table" class="table table-striped">
+                  <table id="solar-table" class="table table-striped">
                     <thead>
                       <tr>
                         <th class="table-head">Code</th>
                         <th class="table-head">Geo-Entity</th>
-                        <th class="table-head">Solar Generation (TWh)</th>
+                        <th class="table-head">Solar Capacity (GWh)</th>
                         <th class="table-head">Year</th>
                         <!-- <th class="table-head">Shape</th> -->
                         <!-- <th class="table-head">Duration</th> -->
@@ -147,63 +146,6 @@
 <!-- ---------------------------------------------------------------------------------- -->
 
 
-<div class="container">
-    <div class="row margin-top-50">
-      <div class="col-md-2">
-        <aside class="filters">
-          <div class="panel panel-default">
-            <div class="panel-heading" style="font-family: 'Michroma', sans-serif;">Solar Capacity</div>
-            <div class="panel-body">
-              <form>
-                <div class="form-group">
-
-                  <ul class="list-group" id="filters">
-                    <li class="filter list-group-item" style="background-color: black;">
-                      <label for="date">Enter a Year</label>
-                      <input class="form-control" id="datetime" type="text" placeholder="1996">
-                    </li>
-                    <li class="filter list-group-item" style="background-color: black;">
-                      <label for="date">Enter a Country</label>
-                      <input class="form-control" id="country" type="text" placeholder="Algeria">
-                    </li>
-
-                  </ul>
-                </div>
-                <button id="filter-btn" type="submit" style="margin:5px" color="Blue" class="btn btn-default">Filter Table</button> <br>
-                
-
-                <button id="reset-btn" type="reset"  style="margin:5px" class="btn btn-default">Reset Table</button>
-              </form>
-
-            </div>
-          </div>
-        </aside>
-      </div>
-      <div class="col-md-10">
-        <div id="table-area" class="">
-          <table id="ufo-table" class="table table-striped">
-            <thead>
-              <tr>
-                <th class="table-head">Code</th>
-                <th class="table-head">Geo-Entity</th>
-                <th class="table-head">Solar Capacity (GWh)</th>
-                <th class="table-head">Year</th>
-                <!-- <th class="table-head">Shape</th> -->
-                <!-- <th class="table-head">Duration</th> -->
-                
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
 
 
  <!-- Footer Section -->
@@ -220,9 +162,11 @@
         crossorigin="anonymous"></script>
 
     <div id="plot"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <!-- <script src="../static/data.json"></script> -->
     <script src="../static/js/data.js"></script>
     <script src="../static/js/app.js"></script>
+    <!-- <script src="../static/js/example.js"></script> -->
     <!-- <script src="../static/js/sample.js"></script> -->
     
     

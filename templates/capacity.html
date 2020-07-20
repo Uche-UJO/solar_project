@@ -46,25 +46,29 @@
   
                   </li>
   
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                       <a class="nav-link" href="comparisons.html">Comparisons</a>
                   </li>
-                  
+                   -->
   
           
               </ul>
-              <form class="form-inline my-2 my-lg-0">
+              <!-- <form class="form-inline my-2 my-lg-0">
                   <input class="form-control mr-sm-2" type="text" placeholder="Search">
                   <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                   
                   
-              </form>
+              </form> -->
           </div>
       </nav>
   </div>    
     
 
-
+  <style>
+    div {
+      background-image: url('../static/img/solar_panels.jpg'); size:"width: 500px; height:400px;"
+    }
+    </style>
 
 
 
@@ -78,13 +82,18 @@
             <div class="box">
                 <h3 class="title">Solar Capacity</h3>
                 <hr>
+                <h5>Country</h5>
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
                 <!-- <img src="/data/solar_panels.jpg" class="vizualization rounded float-left" alt="Solar Panels"> -->
-                
+                <p> The visualization shows the amount of solar energy generation, per country, measured in gigawatt-hours (GWh),
+                    between 1996 and 2018.</p>
             </div>
         </div>
     <div class="col-lg-5 col-md-12">
 
+    
 
+    
 
 
 
@@ -105,7 +114,7 @@
         crossorigin="anonymous"></script>
 
     <div id="plot"></div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="../static/js/data.js"></script>
     <script src="../static/js/capacity.js"></script>
 

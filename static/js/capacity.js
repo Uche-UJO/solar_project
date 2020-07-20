@@ -1,187 +1,191 @@
-var data = data; 
+function init() {
+  // Grab a reference to the dropdown select element
+  var selector = d3.select("#selDataset"); //TODO: BUILD DROPDOWN BOX IN INDEX.HTML WITH ID OF selDataset (See UFO homework)
 
-console.log(data['capacity']);
+  // Use the list of sample names to populate the select options
+  d3.json("data.json").then((data) => {
+    var entities = [];
+
+    data.capacity.forEach(object => {
+    //TODO: REMOVE ALL DUPLICATE COUNTRIES AND NULL VALUES
+    // if (object.entities !== entities); 
+    // if(entities.indexOf(data.consumption.entity) === -1);
+    // if(!(object.entities in entities))
+
+      entities.push(object.entity)});
+
+      let newEntities = [...new Set(entities)];
+      console.log(newEntities);
+    
+ 
+    newEntities.forEach((country) => {
+     
+      selector
+        .append("option")
+        .text(country)
+        .property("value", country);
+    });
+
+    // Use the first sample from the list to build the initial plots
+    var firstEntity = newEntities[0];
+    buildCharts(firstEntity);
+    // buildMetadata(firstSample);
+  });
+}
+
+
+// ------------------
+function buildCharts(entityChoice) {
+  d3.json("data.json").then((data) => {
+    
+var test = data['capacity']
+console.log(test);
+
+
 
 // Create two arrays, each of which will hold data for a different trace
 var y0 = [];
 var y1 = [];
 var y2 = [];
 var y3 = [];
+var year = [];
+var solar = [];
 
+
+
+// var entityChoice = 'Argentina';
 
 // Fill each of the above arrays with randomly generated data
-for (var i = 0; i < data['capacity'].length; i++) {
-  y0.push(i['code']);
-  y1.push(i['entity']);
-  y2.push(i['solar_capacity_gwh']);
-  y3.push(i['year']);
+for (var i = 0; i < test.length; i++) {
+  y0.push(test[i]['code']);
+  y1.push(test[i]['entity']);
+  y2.push(test[i]['solar_capacity_gwh']);
+  y3.push(test[i]['year']);
+  if (test[i]['entity'] == entityChoice) {// If the country name is Africa
+    year.push(test[i]['year']);
+    solar.push(test[i]['solar_capacity_gwh']);
+
+  }
 }
-
-
-
-
 // Create a trace object with the data in `y0`
 var trace1 = {
-  y: y0,
-  // boxpoints: "all",
-  type: "code"
+  x: year,
+  y: solar,
+  text: 'GWh',
+  type: "line"
+  
 };
 
-// Create a trace object with the data in `y0`
-var trace2 = {
-    y: y1,
-    // boxpoints: "all",
-    type: "entity"
-  };
 
-// Create a trace object with the data in `y0`
-var trace3 = {
-    y: y2,
-    // boxpoints: "all",
-    type: "solar capacity gwh"
-  };
-
-
-// Create a trace object with the data in `y1`
-var trace4 = {
-  y: y3,
-  // boxpoints: "all",
-  type: "year"
-};
 
 // Create a data array with the above two traces
-var data = [trace1, trace2, trace3, trace4];
-console.log(data);
+// var myData = [trace1, trace2, trace3, trace4];
+var myData = [trace1];
+console.log(myData);
+
+
+
+
 
 
 
 // Use `layout` to define a title
 var layout = {
-  title: "Basic Box Plot"
+  title: `${entityChoice}'s Solar Capacity`
 };
 
 // Render the plot to the `plot1` div
-Plotly.newPlot("plot", data, layout);
+Plotly.newPlot("plot", myData, layout);
+    // // Build a Bubble Chart
+    // var bubbleLayout = {
+    //   title: "Bacteria Cultures Per Sample",
+    //   margin: { t: 0 },
+    //   hovermode: "closest",
+    //   xaxis: { title: "OTU ID" },
+    //   margin: { t: 30}
+    // };
+    // var bubbleData = [
+    //   {
+    //     x: otu_ids,
+    //     y: sample_values,
+    //     text: otu_labels,
+    //     mode: "markers",
+    //     marker: {
+    //       size: sample_values,
+    //       color: otu_ids,
+    //       colorscale: "Earth"
+    //     }
+    //   }
+    // ];
+
+    // Plotly.newPlot("bubble", bubbleData, bubbleLayout);
+
+    // var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
+    // var barData = [
+    //   {
+    //     y: yticks,
+    //     x: sample_values.slice(0, 10).reverse(),
+    //     text: otu_labels.slice(0, 10).reverse(),
+    //     type: "bar",
+    //     orientation: "h",
+    //   }
+    // ];
+
+    // var barLayout = {
+    //   title: "Top 10 Bacteria Cultures Found",
+    //   margin: { t: 30, l: 150 }
+    // };
+
+    // Plotly.newPlot("bar", barData, barLayout);
+  });
+}
+// ----------------------------------
 
 
-// var svgWidth = 900;
-// var svgHeight = 500;
+function optionChanged(newSample) {
+  // Fetch new data each time a new sample is selected
+  buildCharts(newSample);
+  // buildMetadata(newSample);
+}
 
-// var margin = { top: 20, right: 40, bottom: 80, left: 100 };
-
-// var width = svgWidth - margin.left - margin.right;
-// var height = svgHeight - margin.top - margin.bottom;
-
-// // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
-// var svg = d3
-//   .select(".chart")
-//   .append("svg")
-//   .attr("width", svgWidth)
-//   .attr("height", svgHeight)
-//   .append("g")
-//   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-// // Append an SVG group
-// var chartGroup = svg.append("g");
-
-// // Append a div to the body to create tooltips, assign it a class
-// d3.select(".chart").append("div").attr("class", "tooltip").style("opacity", 0);
-
-// // Retrieve data from the CSV file and execute everything below
-// d3.csv("/static/capacity.csv", function(err, solarData) {
-//   if (err) throw err;
-
-//   solarData.forEach(function(data) {
-//     data.code = Number(data.code);
-//     data.entity = Number(data.entity);
-//     data.solar_capacity_gwh = Number(data.solar_capacity_gwh);
-//   });
-
-//   console.log(solarData);
-
-//   // Step 4: Parse the data
-//   // Format the data and convert to numerical and date values
-//   // =================================
-//   // Create a function to parse date and time
-//   var parseTime = d3.timeParse("%d-%b");
-
-//   // Format the data
-//   solarData.forEach(function(data) {
-//     data.date = parseTime(data.date);
-//     data.morning = +data.morning;
-//     data.evening = +data.evening;
-//   });
-
-//   // Step 5: Create the scales for the chart
-//   // =================================
-//   var xTimeScale = d3.scaleTime()
-//     .domain(d3.extent(solarData, d => d.date))
-//     .range([0, width]);
-
-//   var yLinearScale = d3.scaleLinear().range([height, 0]);
-
-//   // Step 6: Set up the y-axis domain
-//   // ==============================================
-//   // @NEW! determine the max y value
-//   // find the max of the morning data
-//   var morningMax = d3.max(solarData, d => d.morning);
-
-//   // find the max of the evening data
-//   var eveningMax = d3.max(solarData, d => d.evening);
-
-//   var yMax;
-//   if (morningMax > eveningMax) {
-//     yMax = morningMax;
-//   }
-//   else {
-//     yMax = eveningMax;
-//   }
-
-//   // var yMax = morningMax > eveningMax ? morningMax : eveningMax;
-
-//   // Use the yMax value to set the yLinearScale domain
-//   yLinearScale.domain([0, yMax]);
+init();
 
 
-//   // Step 7: Create the axes
-//   // =================================
-//   var bottomAxis = d3.axisBottom(xTimeScale).tickFormat(d3.timeFormat("%d-%b"));
-//   var leftAxis = d3.axisLeft(yLinearScale);
 
-//   // Step 8: Append the axes to the chartGroup
-//   // ==============================================
-//   // Add x-axis
-//   chartGroup.append("g")
-//     .attr("transform", `translate(0, ${height})`)
-//     .call(bottomAxis);
 
-//   // Add y-axis
-//   chartGroup.append("g").call(leftAxis);
 
-//   // Step 9: Set up two line generators and append two SVG paths
-//   // ==============================================
 
-//   // Line generator for morning data
-//   var line1 = d3.line()
-//     .x(d => xTimeScale(d.date))
-//     .y(d => yLinearScale(d.morning));
 
-//   // Line generator for evening data
-//   var line2 = d3.line()
-//     .x(d => xTimeScale(d.date))
-//     .y(d => yLinearScale(d.evening));
 
-//   // Append a path for line1
-//   chartGroup
-//     .append("path")
-//     .attr("d", line1(solarData))
-//     .classed("line green", true);
 
-//   // Append a path for line2
-//   chartGroup
-//     .data([solarData])
-//     .append("path")
-//     .attr("d", line2)
-//     .classed("line orange", true);
 
-// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
