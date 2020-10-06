@@ -18,4 +18,4 @@
 
 
 ### Tools 
-###### Python, JavaScript, JSON, Flask, PostgreSQL, HTML/CSS/Bootstrap, Visual Studio Code.
+###### Python, JavaScript, JSON, Flask, PostgreSQL, HTML/CSS/Bootstrap, Visual Studio Code, Plotly.
